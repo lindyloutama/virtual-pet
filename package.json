@@ -1,0 +1,27 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "virtual pet",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^23.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lindyloutama/virtual-pet.git"
+  },
+  "keywords": [
+    "virtual",
+    "pet"
+  ],
+  "author": "Linda Tamakaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindyloutama/virtual-pet/issues"
+  },
+  "homepage": "https://github.com/lindyloutama/virtual-pet#readme"
+}
