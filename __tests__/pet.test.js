@@ -2,6 +2,8 @@ const Pet = require('../src/pet.js');
 
 describe('constructor', () => {
     it('returns an object', () => {
-      expect(new Pet('Fido')).toBeInstanceOf(Object);
+      const pet = new Pet('Fido')
+      pet.growUp();
+      expect(pet.age).toEqual(1);
     });
   });
